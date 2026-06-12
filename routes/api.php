@@ -16,7 +16,7 @@ use App\Models\Admin;
 use Illuminate\Support\Facades\Hash;
 /*
 |--------------------------------------------------------------------------
-| Public Token Login
+| Public Token Login route
 |--------------------------------------------------------------------------
 */
 Route::post('/login-token', function (Request $request) {
